@@ -2,7 +2,9 @@
 A configurable, dynamically updatable, simulated data generator for AWS IoT Core.
 
 Author: Chris Green (AWS)
+
 Version: 0.1 alpha<br>
+
 GitLab: https://gitlab.aws.dev/greenzcg/iot-data-generator.git<br>
 
 ----
