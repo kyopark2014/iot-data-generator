@@ -17,8 +17,17 @@ $ aws iot describe-endpoint --endpoint-type iot:Data-ATS
 #### libarary 설치
 
 
-AWS IoT Device SDK v2 for Python
+[AWS IoT Device SDK v2 for Python](https://pypi.org/project/awsiotsdk/)에 따라 AWS IoT AWS를 아래와 같이 설치 합니다. 
 
+```c
+$ python3 -m pip install awsiotsdk
+Collecting awsiotsdk
+  Downloading awsiotsdk-1.11.3-py3-none-any.whl (58 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.5/58.5 KB 245.2 kB/s eta 0:00:00
+Requirement already satisfied: awscrt==0.13.13 in /Users/ksdyb/.pyenv/versions/3.9.12/lib/python3.9/site-packages (from awsiotsdk) (0.13.13)
+Installing collected packages: awsiotsdk
+Successfully installed awsiotsdk-1.11.3
+```
 
 ```c
 $ python -m pip install boto3
@@ -42,6 +51,8 @@ Collecting six>=1.5
 Installing collected packages: urllib3, six, jmespath, python-dateutil, botocore, s3transfer, boto3
 Successfully installed boto3-1.24.22 botocore-1.27.22 jmespath-1.0.1 python-dateutil-2.8.2 s3transfer-0.6.0 six-1.16.0 urllib3-1.26.9
 ```
+
+Aws SDK 설치후에도 안되는 경우에 필요시 아래처럼 수동 설치 합니다.
 
 ```c
 $ python3 -m pip install awscrt
