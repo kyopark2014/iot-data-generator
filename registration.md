@@ -52,7 +52,12 @@ sdk/test/Python
 --------------
 ```
 
-잘동작하면 "Ctrl-C"로 종료합니다. 
+잘 동작하면 "Ctrl-C"로 종료합니다. 
+
+
+9) zip 파일의 압축 해제 및 스크립트 실행("start.sh")후에 아래와 같은 파일들이 생성되어 있음을 알 수 있습니다.
+
+![image](https://user-images.githubusercontent.com/52392004/177213906-dbe60ea2-1c21-46e6-9499-d2c1f6a42f6b.png)
 
 
 
