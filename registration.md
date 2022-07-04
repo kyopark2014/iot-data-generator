@@ -32,5 +32,30 @@ https://us-east-1.console.aws.amazon.com/iot/home?region=us-east-1#/home
 
 ![noname](https://user-images.githubusercontent.com/52392004/177145952-854e7e08-6afe-4ba8-8913-6a1b2a54539c.png)
 
+8) 다운로드 받은 zip파일로 이동하여 압축을 풀고 아래와 같이 "data-generator"를 아래와 같이 싱행하여, 정상적으로 동작하는지 확인합니다. 
+
+```c
+$ unzip connect_device_package.zip
+$ cd connect_device_package
+$ chmod +x start.sh
+$ ./start.sh
+2022-07-04 20:42:21,272 - AWSIoTPythonSDK.core.protocol.internal.workers - DEBUG - Produced [puback] event
+2022-07-04 20:42:21,272 - AWSIoTPythonSDK.core.protocol.internal.workers - DEBUG - Dispatching [puback] event
+2022-07-04 20:42:21,272 - AWSIoTPythonSDK.core.protocol.internal.clients - DEBUG - Invoking custom event callback...
+2022-07-04 20:42:21,272 - AWSIoTPythonSDK.core.protocol.internal.clients - DEBUG - This custom event callback is for pub/sub/unsub, removing it after invocation...
+2022-07-04 20:42:21,299 - AWSIoTPythonSDK.core.protocol.internal.workers - DEBUG - Produced [message] event
+2022-07-04 20:42:21,299 - AWSIoTPythonSDK.core.protocol.internal.workers - DEBUG - Dispatching [message] event
+Received a new message:
+b'{"message": "Hello World!", "sequence": 0}'
+from topic:
+sdk/test/Python
+--------------
+```
+
+잘동작하면 "Ctrl-C"로 종료합니다. 
+
+
+
+
 
 
