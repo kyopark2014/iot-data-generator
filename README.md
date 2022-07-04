@@ -43,32 +43,5 @@ Data Generator를 Thigs로 등록후 생성된 "data-generator.cert.pem", "data-
 
 ## Data Generator Policy 수정하기
 
-1) 아래와 같이 [AWS IoT] - [Security] - [Policies]에서 "data-generator-Policy"를 선택합니다. 
-
-https://us-east-1.console.aws.amazon.com/iot/home?region=us-east-1#/policyhub
-
-![noname](https://user-images.githubusercontent.com/52392004/177150450-c142142f-0e60-414c-a6f8-369b4134b4d6.png)
-
-2) 상단의 [Edit active version]을 선택하고, [Json]을 선택한 후에, 아래의 부분을 수정합니다. 
-
-
-![noname](https://user-images.githubusercontent.com/52392004/177151158-cd324ab9-05ae-4ef5-b211-8b47f39da984.png)
-
-아래와 같이 "iot:Connect"를 수정합니다. 이때 아래의 "123456789012"일때 account id로 입력합니다. 
-
-```java
-    {
-      "Effect": "Allow",
-      "Action": "iot:Connect",
-      "Resource": [
-        "arn:aws:iot:us-east-1:123456789012:client/*"
-      ]
-    }
-```
-
-account id는 아래 명령어로 확인 할 수 있습니다.
-
-```c
-$ aws sts get-caller-identity --query Account --output text
-```
+[Data Generator Policy 수정하기](https://github.com/kyopark2014/iot-data-generator/blob/main/policy.md)을 따라 Polcy가 "Data Generator"로 부터 들어오는 MQTT request를 allow 하도록 수정합니다. 
 
