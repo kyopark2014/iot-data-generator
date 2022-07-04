@@ -8,6 +8,9 @@
 
 ```java
 $ aws iot describe-endpoint --endpoint-type iot:Data-ATS
+{
+    "endpointAddress": "sample34rul5-ats.iot.us-east-1.amazonaws.com"
+}
 ```
 
 ## 필수 Libarary 설치
