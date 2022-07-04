@@ -1,0 +1,15 @@
+{
+    "id": "717324-3248732464",
+    "cert": "the-device-certificate.cer",
+    "enabled": true,
+    "name": "Type 1 DAQ PSU V",
+    "alias": "lab126/type1/daq/charge/psu/v",
+    "type": "Double",
+    "frequency": 5,
+    "min": 370,
+    "max": 380,
+    "initial": 0,
+    "max_delta": 1,
+    "last_pub": 1647301906,
+    "last_value": 370
+}

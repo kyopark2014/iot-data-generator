@@ -1,0 +1,16 @@
+{
+    "id": "717324-3248732464",
+    "cert": "the-device-certificate.cer",
+    "enabled": true,
+    "name": "motor 2 temperature",
+    "alias": "plant/1/motor/2/temperature",
+    "topic": "p/1/m/2/t",
+    "type": "Double",
+    "frequency": 5,
+    "min": 25,
+    "max": 60,
+    "initial": 190,
+    "max_delta": 2,
+    "last_pub": 1646708328,
+    "last_value": 51
+}

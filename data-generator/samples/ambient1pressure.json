@@ -1,0 +1,15 @@
+{
+    "id": "717324-3248732464",
+    "cert": "the-device-certificate.cer",
+    "enabled": true,
+    "name": "ambient 1 pressure",
+    "alias": "plant/1/ambient/1/pressure",
+    "type": "Double",
+    "frequency": 5,
+    "min": 950,
+    "max": 1100,
+    "initial": 190,
+    "max_delta": 2,
+    "last_pub": 1646708405,
+    "last_value": 1046
+}

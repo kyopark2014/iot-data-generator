@@ -1,0 +1,16 @@
+{
+    "id": "717324-3248732464",
+    "cert": "the-device-certificate.cer",
+    "enabled": true,
+    "name": "Water rig Pump 2 RPM",
+    "alias": "sage-5/DeviceSet/PLC_1/Memory/Pump2_Speed_RPM",
+    "topic": "sim/test",
+    "type": "Integer",
+    "frequency": 5,
+    "min": 2985,
+    "max": 2995,
+    "initial": 190,
+    "max_delta": 2,
+    "last_pub": 1652745719,
+    "last_value": 2995
+}

@@ -1,0 +1,15 @@
+{
+    "id": "717324-3248732464",
+    "cert": "the-device-certificate.cer",
+    "enabled": true,
+    "name": "battery 1 charging",
+    "alias": "plant/1/battery/1/charging",
+    "type": "Boolean",
+    "frequency": 60,
+    "min": 0,
+    "max": 1,
+    "initial": 190,
+    "max_delta": 1,
+    "last_pub": 1646708328,
+    "last_value": 0
+}

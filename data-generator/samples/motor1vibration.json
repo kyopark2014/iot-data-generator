@@ -1,0 +1,15 @@
+{
+    "id": "717324-3248732464",
+    "cert": "the-device-certificate.cer",
+    "enabled": true,
+    "name": "motor 1 vibration",
+    "alias": "plant/1/motor/1/vibration",
+    "type": "Double",
+    "frequency": 5,
+    "min": 1,
+    "max": 10,
+    "initial": 190,
+    "max_delta": 2,
+    "last_pub": 1646708328,
+    "last_value": 5
+}

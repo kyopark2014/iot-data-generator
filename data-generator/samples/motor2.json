@@ -1,0 +1,15 @@
+{
+    "id": "717324-3248732464",
+    "cert": "the-device-certificate.cer",
+    "enabled": true,
+    "name": "motor 2 rpm",
+    "alias": "plant/1/motor/2/rpm",
+    "type": "Double",
+    "frequency": 5,
+    "min": 950,
+    "max": 1000,
+    "initial": 190,
+    "max_delta": 2,
+    "last_pub": 1646708328,
+    "last_value": 981
+}

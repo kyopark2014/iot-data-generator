@@ -1,0 +1,16 @@
+{
+    "id": "717324-3248732464",
+    "cert": "the-device-certificate.cer",
+    "enabled": true,
+    "name": "Heater 1",
+    "alias": "plant/1/heater/1/dutycycle",
+    "topic": "p/1/h/1/dutycycle",
+    "type": "Double",
+    "frequency": 5,
+    "min": 50,
+    "max": 90,
+    "initial": 1,
+    "max_delta": 5,
+    "last_pub": 1646707909,
+    "last_value": 90
+}

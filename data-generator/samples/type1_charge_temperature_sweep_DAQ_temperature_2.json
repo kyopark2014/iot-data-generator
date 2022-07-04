@@ -1,0 +1,15 @@
+{
+    "id": "717324-3248732464",
+    "cert": "the-device-certificate.cer",
+    "enabled": true,
+    "name": "Type 1 DAQ temp 2",
+    "alias": "lab126/type1/daq/charge/temperature/2",
+    "type": "Double",
+    "frequency": 5,
+    "min": -20,
+    "max": 10,
+    "initial": 0,
+    "max_delta": 1,
+    "last_pub": 1647303739,
+    "last_value": 0
+}
