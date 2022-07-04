@@ -4,7 +4,6 @@ A configurable, dynamically updatable, simulated data generator for AWS IoT Core
 Author: Chris Green greenzcg@amazon.com (feedback welcome)<br>
 Version: 0.1 alpha<br>
 GitLab: https://gitlab.aws.dev/greenzcg/iot-data-generator.git<br>
-Broadcast: https://broadcast.amazon.com/videos/482009
 
 ----
 ## Concept
@@ -15,7 +14,8 @@ This is an attempt to break the habit of creating a new and unique quick data so
 - Data source files can be added or removed or edited while the simulator is running and changes will take effect on the next scan (as defined in ```lib/simulator_config.py:scan_interval```)
 
 ## Architecture
-![arch](docs/diagram.png)
+
+![diagram](https://user-images.githubusercontent.com/52392004/177172997-d6af2ba4-641b-4999-9af7-bbf47ad56093.png)
 
 ## Pseudo Code
 1. Read data source files and create generator records for each
@@ -23,20 +23,6 @@ This is an attempt to break the habit of creating a new and unique quick data so
 3. Publish enabled and scheduled generated data to AWS IoT Core
 4. Update generator record with the last published time
 5. Loop 1 to 4 indefinitely
-
-## Installation
-1. ```git clone https://gitlab.aws.dev/greenzcg/iot-data-generator.git ```
-2. Add AWS IoT Core device certs to the certs directory
-3. Update/add/remove the ```*.json``` config files in the ```data_sources``` directory
-
-## Configure
-1. Ensure you have [created at least one AWS Iot Core Thing](https://us-east-1.console.aws.amazon.com/iot/home?region=us-east-1#/create/provisioning) and copied the Thing certificates to the ```certs``` directory
-2. Edit global configuration and defaults in the ```lib/simulator_config.py``` file
-
-## Run
-1. Start the simulator with ```python3 simulator.py```
-2. Observe data arriving in AWS IoT Core using the console [MQTT Test Client](https://us-east-1.console.aws.amazon.com/iot/home?region=us-east-1#/test)
-3. [Create IoT Core Rules](https://us-east-1.console.aws.amazon.com/iot/home?region=us-east-1#/create/rule) to direct the traffic to downstream resources
 
 ## Samples
 - You can copy and paste data source ```*.json``` files from the ```samples``` directory to
@@ -66,12 +52,5 @@ A data source configuration file can contain the following
 
 ```
 ## Sample waveform shapes from the DataGenerator
-![pic](docs/sample_waveforms.png)
 
-# To Do
-This is essentially a PoC project. There are some bugs and many potential improvements that can be made. For example,
-- [ ] Re-write in a language more suitable for production than Python
-- [ ] Multiple threads to enable scaling. (no scale testing done to date but my guess is it won't scale as-is)
-- [ ] Fix the problem of intermittent sampling error when the scan_interval is the same as the frequency of a data source.
-- [ ] Fix the random(?) but recoverable ```"Error decoding JSON for update in ./data_sources/motor15rpm.json. Expecting value at line 1 column 1. Skipping."``` errors
-- [ ] ... I am sure you can add to this list :-)
+![sample_waveforms](https://user-images.githubusercontent.com/52392004/177173247-c5a5d986-112f-40b9-b590-02da0e716147.png)
