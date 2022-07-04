@@ -74,3 +74,16 @@ Mon Jul  4 21:18:54 2022 Water rig OEE trigger last value = 10 new value = 9
 Mon Jul  4 21:18:54 2022 Water rig Pump 3 RPM last value = 3000 new value = 3000
 Mon Jul  4 21:18:54 2022 Water rig Pump 2 RPM last value = 2985 new value = 2985
 ```
+
+## MQTT test client에서 동작 확인하기 
+
+1) MQTT test client console로 이동합니다.
+
+https://us-east-1.console.aws.amazon.com/iot/home?region=us-east-1#/test
+
+2) 아래와 같이 [Subscribe to a topic]의 [Topic filter]를 "#"으로 입력하고 [Subscribe]를 선택하면, 아래와 같이 "sim/test"라는 topic으로 Data Generator가 data를 생성하여 전송하는것을 알 수 있습니다. 
+
+
+![noname](https://user-images.githubusercontent.com/52392004/177160702-11a3506e-a89f-4648-af12-ba9b87e3f183.png)
+
+
