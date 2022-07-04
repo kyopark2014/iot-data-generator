@@ -23,7 +23,7 @@ $ mkdir certs
 $ cd certs
 ```
 
-Data Generator를 Thig으로 등록후 생성된 "data-generator.cert.pem", "data-generator.private.key", "root-CA.crt"을 certs 폴더에 복사합니다. 
+Data Generator를 Thing으로 등록후 생성된 "data-generator.cert.pem", "data-generator.private.key", "root-CA.crt"을 certs 폴더에 복사합니다. 
 
 ## Data Generator 소스 수정하기 
 
