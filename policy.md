@@ -29,3 +29,6 @@ account id는 아래 명령어로 확인 할 수 있습니다.
 $ aws sts get-caller-identity --query Account --output text
 ```
 
+3) Policy를 업데이트 한후에 아래처럼 새로운 버전을 Active로 변경하여야 사용할 수 있습니다. 
+
+![noname](https://user-images.githubusercontent.com/52392004/177152772-acc63cc1-0f02-455f-bfde-cf7d56fe1db9.png)
