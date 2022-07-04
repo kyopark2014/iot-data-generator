@@ -13,7 +13,7 @@ $ aws iot describe-endpoint --endpoint-type iot:Data-ATS
 }
 ```
 
-## 필수 Libarary 설치
+## 필수 Library 설치
 
 [AWS IoT Device SDK v2 for Python](https://pypi.org/project/awsiotsdk/)에 따라 AWS IoT AWS를 아래와 같이 설치 합니다. 
 
