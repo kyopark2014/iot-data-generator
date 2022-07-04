@@ -12,10 +12,10 @@ class AppConfig:
     #client_id = "DeviceSimulator"
 
     # ap-southeast-2 SYD configuration
-    endpoint = "a1ugybrd70xbxf-ats.iot.ap-southeast-2.amazonaws.com"
-    cert = "./certs/1aced057decd2d5acf93933e14d7e4e805617d1e8ad5fb57b4a162d271e20660-certificate.pem.crt"
-    key = "./certs/1aced057decd2d5acf93933e14d7e4e805617d1e8ad5fb57b4a162d271e20660-private.pem.key"
-    root_ca = "./certs/AmazonRootCA1.pem"
+    endpoint = "anr3wll34rul5-ats.iot.us-east-1.amazonaws.com"
+    cert = "./certs/data-generator.cert.pem"
+    key = "./certs/data-generator.private.key"
+    root_ca = "./certs/root-CA.crt"
 
     client_id = "water-rig-sim"
 
