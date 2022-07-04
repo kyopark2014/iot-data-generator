@@ -54,14 +54,21 @@ https://us-east-1.console.aws.amazon.com/iot/home?region=us-east-1#/policyhub
 
 ![noname](https://user-images.githubusercontent.com/52392004/177151158-cd324ab9-05ae-4ef5-b211-8b47f39da984.png)
 
-아래와 같이 "iot:Connect"를 수정합니다. 
+아래와 같이 "iot:Connect"를 수정합니다. 이때 아래의 "123456789012"일때 account id로 입력합니다. 
 
 ```java
     {
       "Effect": "Allow",
       "Action": "iot:Connect",
       "Resource": [
-        "arn:aws:iot:us-east-1:677146750822:client/*"
+        "arn:aws:iot:us-east-1:123456789012:client/*"
       ]
     }
 ```
+
+account id는 아래 명령어로 확인 할 수 있습니다.
+
+```c
+$ aws sts get-caller-identity --query Account --output text
+```
+
