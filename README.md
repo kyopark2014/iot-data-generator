@@ -27,6 +27,8 @@ Data Generator를 Thigs로 등록후 생성된 "data-generator.cert.pem", "data-
 
 ## Data Generator 소스 수정하기 
 
+아래와 같이 Data Generator의 TLS credential을 업데이트 합니다. 
+
 1) Visual Studio Code와 같은 툴을 이용하여 "lib/simulator_config.py"을 오픈합니다.
 
 2) "endpoint"에 [Prerequisite](https://github.com/kyopark2014/iot-data-generator/blob/main/prerequisite.md)에서 확인한 endpoint를 입력합니다.
