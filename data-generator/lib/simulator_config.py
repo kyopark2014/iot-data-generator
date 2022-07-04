@@ -17,7 +17,9 @@ class AppConfig:
     key = "./certs/data-generator.private.key"
     root_ca = "./certs/root-CA.crt"
 
-    client_id = "water-rig-sim"
+    # client_id = "water-rig-sim"
+    client_id = "room1temperature"
+
 
     topic = "sim/test" # Can be overridem in the configs/*.json files with the optional "topic:" element
 

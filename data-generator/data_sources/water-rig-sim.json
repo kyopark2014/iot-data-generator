@@ -1,7 +1,7 @@
 {
     "id": "717324-3248732464",
     "cert": "the-device-certificate.cer",
-    "enabled": true,
+    "enabled": false,
     "name": "Water rig OEE trigger",
     "alias": "sage-5/DeviceSet/PLC_1/Memory/oee_dummy",
     "topic": "sim/test",
@@ -12,6 +12,6 @@
     "max": 10,
     "initial": 0,
     "max_delta": 2,
-    "last_pub": 1656937140,
-    "last_value": 8
+    "last_pub": 1656941951,
+    "last_value": 7
 }
