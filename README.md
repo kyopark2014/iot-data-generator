@@ -39,7 +39,7 @@ Data Generator를 Thigs로 등록후 생성된 "data-generator.cert.pem", "data-
 ```java
     endpoint = "samplel34rul5-ats.iot.us-east-1.amazonaws.com"
     cert = "./certs/data-generator.cert.pem"
-    key = "./data-generator.private.key"
+    key = "./certs/data-generator.private.key"
     root_ca = "./certs/root-CA.crt"
 ```    
 
