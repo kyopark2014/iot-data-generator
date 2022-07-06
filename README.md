@@ -26,7 +26,7 @@ Wed Jul  6 20:34:55 2022 Water rig Pump 1 RPM last value = 39 new value = 40
 Wed Jul  6 20:34:56 2022
 ```
 
-이때, IoT Core로 인입되는 json포멧의 데이터는 "sim/test"라는 Topic으로 인입되고, 포맷은 아래와 같습니다. 여기서 "value"가 Meature이고 "alias"는 Dimension에 해당합니다. 
+이때, IoT Core로 인입되는 json포멧의 데이터는 "sim/test"라는 Topic으로 인입되고, 포맷은 아래와 같습니다. 여기서 "value"가 Measure이고 "alias"는 Dimension에 해당합니다. 
 
 ```java
 {
