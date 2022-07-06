@@ -88,6 +88,9 @@ https://us-east-1.console.aws.amazon.com/iot/home?region=us-east-1#/test
 
 
 
+![image](https://user-images.githubusercontent.com/52392004/177516478-b44595d5-6cdc-4b8a-83ef-d3b259c77972.png)
+
+
 ## Reference
 
 [Ingesting Data into Amazon Timestream with AWS IoT Core](https://www.youtube.com/watch?v=00Wersoz2Q4)
