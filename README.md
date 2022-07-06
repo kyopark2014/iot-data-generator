@@ -40,6 +40,10 @@ Wed Jul  6 20:34:56 2022
 
 3) [IoT Rule설정](https://github.com/kyopark2014/iot-data-generator/blob/main/iot-rule.md)에 따라 IoT core로 들어오는 Data를 Timestream에 저장합니다. 
 
+4) [Timestream의 Query editor를 설정하기 위하여 Console](https://us-east-1.console.aws.amazon.com/timestream/home?region=us-east-1#query-editor:)로 접속합니다. 이때 Query문으로 "SELECT * FROM "DataGenerator"."IoTData" WHERE alias = 'sage-5/DeviceSet/PLC_1/Memory/Pump2_Speed_RPM' AND time between ago(15m) and now() ORDER BY time DESC LIMIT 10"라고 입력하고 [Run]을 하면 아래와 같이 IoT Data Generator가 생성하여 IoT Core로 인입되어, Timestream에 저장된 데이터를 확인 할 수 있습니다. 
+
+![noname](https://user-images.githubusercontent.com/52392004/177549737-d3394fd4-9b08-4cb7-a028-badc9cc5a127.png)
+
 
 ## Grafana를 이용해 Dashboard 생성하기
 
