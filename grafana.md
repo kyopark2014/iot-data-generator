@@ -41,7 +41,15 @@ Open Source인 Grafana를 이용하여 IoT Data Generator를 통해 생성된 �
 
 ![noname](https://user-images.githubusercontent.com/52392004/177553232-c75e96d4-23a6-4599-88d6-22ffa5684bb4.png)
 
-아래처럼 [Data sources]에서 [Configure in Grafana]를 선택합니다. 
+아래와 같이 [Authentification] - [Configure users and user groups]로 진입합니다. 
+
+![noname](https://user-images.githubusercontent.com/52392004/177593747-92b158ba-8b5b-4c8d-a138-66927d4d6035.png)
+
+이때 user는 아래처럼 "Admin"이어야 합니다. 아니라면 [Action] - [Make admin]으로 변경합니다. 
+![image](https://user-images.githubusercontent.com/52392004/177594031-7c754c6a-5bff-4b71-a84f-86f7b6a5ea3c.png)
+
+
+다시 "DataGenerator" Workspace로 이동하여 아래처럼 [Data sources]에서 [Configure in Grafana]를 선택합니다. 
 
 ![noname](https://user-images.githubusercontent.com/52392004/177553640-6725bcbe-abb1-4dc4-b122-cf5eba3ac42c.png)
 
