@@ -36,7 +36,7 @@ Wed Jul  6 20:34:56 2022
 }
 ```
 
-2) [Timestram](https://github.com/kyopark2014/iot-data-generator/blob/main/timestream.md)을 따라 Timestream database과 Table을 생성합니다.
+2) [Timestram](https://github.com/kyopark2014/iot-data-generator/blob/main/timestream.md)을 따라 Timestream database와 Table을 생성합니다.
 
 3) [IoT Rule설정](https://github.com/kyopark2014/iot-data-generator/blob/main/iot-rule.md)에 따라 IoT core로 들어오는 Data를 Timestream에 저장합니다. 
 
@@ -45,7 +45,7 @@ Wed Jul  6 20:34:56 2022
 ![noname](https://user-images.githubusercontent.com/52392004/177549737-d3394fd4-9b08-4cb7-a028-badc9cc5a127.png)
 
 
-## Grafana를 이용해 Dashboard 생성하기
+## Grafana를 이용한 파형 확인
 
 아래는 [Grafana 설정](https://github.com/kyopark2014/iot-data-generator/blob/main/grafana.md)를 이용하여 TRIANGLE, RAMPUP, PWM50PC와 같은 파형을 생성한 모습입니다. 
 
