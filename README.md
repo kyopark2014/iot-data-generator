@@ -26,6 +26,16 @@ Wed Jul  6 20:34:55 2022 Water rig Pump 1 RPM last value = 39 new value = 40
 Wed Jul  6 20:34:56 2022
 ```
 
+이때, IoT Core로 인입되는 json포멧의 데이터는 "sim/test"라는 Topic으로 인입되고, 포맷은 아래와 같습니다. 여기서 "value"가 Meature이고 "alias"는 Dimension에 해당합니다. 
+
+```java
+{
+  "alias": "sage-5/DeviceSet/PLC_1/Memory/Pump3_Speed_RPM",
+  "ts": 1657075869,
+  "value": 35
+}
+```
+
 2) [Timestram](https://github.com/kyopark2014/iot-data-generator/blob/main/timestream.md)을 따라 Timestream database과 Table을 생성합니다.
 
 3) [IoT Rule설정](https://github.com/kyopark2014/iot-data-generator/blob/main/iot-rule.md)에 따라 IoT core로 들어오는 Data를 Timestream에 저장합니다. 
