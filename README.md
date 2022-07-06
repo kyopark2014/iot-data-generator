@@ -11,7 +11,25 @@ AWS TwinMaker를 통해서 digital twin을 만드는 경우와 같이, 실제 Io
 
 ## Amazon Timestream으로 데이터 보내기
 
-[Timestram](https://github.com/kyopark2014/iot-data-generator/blob/main/timestream.md)에서는 Amazon Timestream에 데이터를 저장하고 Query하는 방법에 대해 소개합니다. 
+1) [IoT Data Generator](https://github.com/kyopark2014/iot-data-generator/blob/main/setup.md) 설정후에 아래처럼 Data를 생성하여 IoT Core로 전송합니다. 
+
+```c
+$ python3 simulator.py
+Wed Jul  6 20:34:54 2022
+Wed Jul  6 20:34:54 2022 Water rig Pump 3 RPM last value = 1 new value = 1
+Wed Jul  6 20:34:54 2022 Water rig Pump 2 RPM last value = 48 new value = 49
+Wed Jul  6 20:34:54 2022 Water rig Pump 1 RPM last value = 38 new value = 39
+Wed Jul  6 20:34:55 2022
+Wed Jul  6 20:34:55 2022 Water rig Pump 3 RPM last value = 1 new value = 1
+Wed Jul  6 20:34:55 2022 Water rig Pump 2 RPM last value = 49 new value = 50
+Wed Jul  6 20:34:55 2022 Water rig Pump 1 RPM last value = 39 new value = 40
+Wed Jul  6 20:34:56 2022
+```
+
+2) [Timestram](https://github.com/kyopark2014/iot-data-generator/blob/main/timestream.md)을 따라 Timestream database과 Table을 생성합니다.
+
+3) [IoT Rule설정](https://github.com/kyopark2014/iot-data-generator/blob/main/iot-rule.md)에 따라 IoT core로 들어오는 Data를 Timestream에 저장합니다. 
+
 
 ## Grafana를 이용해 Dashboard 생성하기
 
