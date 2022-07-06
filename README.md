@@ -93,3 +93,7 @@ https://us-east-1.console.aws.amazon.com/iot/home?region=us-east-1#/test
 [Ingesting Data into Amazon Timestream with AWS IoT Core](https://www.youtube.com/watch?v=00Wersoz2Q4)
 
 [aws-cdk-lib.aws_timestream module](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_timestream-readme.html)
+
+[Amazon Timestream - grafana](https://grafana.com/grafana/plugins/grafana-timestream-datasource/)
+
+[Grafana - AWS](https://docs.aws.amazon.com/timestream/latest/developerguide/Grafana.html#Grafana.sample-app)
