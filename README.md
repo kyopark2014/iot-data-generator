@@ -5,7 +5,7 @@ AWS TwinMaker를 통해서 digital twin을 만드는 경우와 같이, 실제 Io
 
 ## IoT Data Generator
 
-[IoT Data Generator](https://github.com/kyopark2014/iot-data-generator/tree/main/data-generator)는 IoT Data Generator의 Concept과 구조에 대해 설명합니다.
+[IoT Data Generator](https://github.com/kyopark2014/iot-data-generator/tree/main/data-generator)는 IoT Data Generator의 Concept과 구조에 대해 설명합니다. IoT Data Generator는 Python으로 각종 IoT Data Souce를 생성하여, MQTT로 IoT Core로 보낼 수 있습니다. 이것은 실행중에 쉽게 add, remove, enable, disable, adjust/modify와 같은 작업을 수행할 수 있으며, 여러개의 Data Source를 각각의 설정 파일을 통해 쉽게 생성 할 수 있습니다. 
 
 [IoT Data Generator 설정](https://github.com/kyopark2014/iot-data-generator/blob/main/setup.md)에서는 IoT Data Generator에 동작시키기 위한 환경을 설정하고 동작시험을 하는 방법에 대해 설명합니다. 
 
