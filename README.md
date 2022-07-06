@@ -1,11 +1,13 @@
 # IoT Data Generator 
 
-AWS TwinMaker를 통해서 digital twin을 만들다보면, 데이터 시뮬레이터가 필요할 수 있습니다. 여기서는 Data Simuator에 대해 소개합니다. 
+AWS TwinMaker를 통해서 digital twin을 만드는 경우와 같이, 실제 IoT Sensor가 아닌 데이터 시뮬레이터를 통해 동작을 시험하여야 할 필요가 있습니다. 여기서는 IoT Data Generator에 대해 소개하고, Timestream으로 데이터를 모아서, Grafana로 보여주는 일련의 과정을 소개합니다.  
 
-## IoT Data Generator 설정
+
+## IoT Data Generator
+
+[IoT Data Generator](https://github.com/kyopark2014/iot-data-generator/tree/main/data-generator)는 IoT Data Generator의 Concept과 구조에 대해 설명합니다.
 
 [IoT Data Generator 설정](https://github.com/kyopark2014/iot-data-generator/blob/main/setup.md)에서는 IoT Data Generator에 동작시키기 위한 환경을 설정하고 동작시험을 하는 방법에 대해 설명합니다. 
-
 
 ## Amazon Timestream으로 데이터 보내기
 
