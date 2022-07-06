@@ -1,4 +1,4 @@
-# IoT Data Generator를 이용하여 Data Source를 생성하고 Timestream과 Grafana를 이용하여 Dashboard 생성하기
+# IoT Data Generator를 이용하여 다양한 Data Source를 생성하고 Timestream과 Grafana를 이용하여 Dashboard 생성하기
 
 AWS TwinMaker를 통해서 digital twin을 만드는 경우와 같이, 실제 IoT Sensor가 아닌 데이터 시뮬레이터를 통해 동작을 시험하여야 할 필요가 있습니다. 여기서는 IoT Data Generator에 대해 소개하고, Timestream으로 데이터를 모아서, Grafana로 보여주는 일련의 과정을 소개합니다. 전체적인 Architecture는 아래와 같습니다.
 
