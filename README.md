@@ -96,4 +96,7 @@ https://us-east-1.console.aws.amazon.com/iot/home?region=us-east-1#/test
 
 [Amazon Timestream - grafana](https://grafana.com/grafana/plugins/grafana-timestream-datasource/)
 
+
+[Visualizing Data in Amazon Timestream using Grafana](https://www.youtube.com/watch?v=pilkz645cs4&t=2s)
+
 [Grafana - AWS](https://docs.aws.amazon.com/timestream/latest/developerguide/Grafana.html#Grafana.sample-app)
