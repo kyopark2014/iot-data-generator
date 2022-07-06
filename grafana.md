@@ -59,6 +59,17 @@ Open Source인 Grafana를 이용하여 IoT Data Generator를 통해 생성된 �
 
 8) 아래처럼 [Data source]를 선택하여, [Amazon Timestream us-east-1]을 선택합니다. 
 
+![noname](https://user-images.githubusercontent.com/52392004/177557897-52504279-d407-4f36-8e9d-6658373eb405.png)
+
+9) Query문으로 "SELECT * FROM "DataGenerator"."IoTData" WHERE alias = 'sage-5/DeviceSet/PLC_1/Memory/Pump1_Speed_RPM'"와 같이 입력후에, 아래처럼 [Title]을 "sage-5/DeviceSet/PLC_1/Memory/Pump1_Speed_RPM"라고 입력합니다. 이후 Appliy를 선택합니다. 
+
 ![noname](https://user-images.githubusercontent.com/52392004/177557188-ee6c34f2-df0b-4fa2-bd31-96e2dd1e1605.png)
+
+설정이 잘되면 아래처럼 IoT Data Generator가 생성한 파형을 확인 할 수 있습니다. 
+
+![image](https://user-images.githubusercontent.com/52392004/177558544-e51ac8b9-ede7-406a-8300-46482fde4abd.png)
+
+10) 마찬가지로 "sage-5/DeviceSet/PLC_1/Memory/Pump2_Speed_RPM"와 "sage-5/DeviceSet/PLC_1/Memory/Pump3_Speed_RPM"을 추가하고, 저장합니다. 
+
 
 
