@@ -11,6 +11,8 @@ AWS TwinMaker를 통해서 digital twin을 만드는 경우와 같이, 실제 Io
 
 ## Amazon Timestream으로 데이터 보내기
 
+[Timestram](https://github.com/kyopark2014/iot-data-generator/blob/main/timestream.md)에서는 Amazon Timestream에 데이터를 저장하고 Query하는 방법에 대해 소개합니다. 
+
 ## Grafana를 이용해 Dashboard 생성하기
 
 아래는 Grafana를 이용하여 TRIANGLE, RAMPUP, PWM50PC와 같은 파형을 생성한 모습입니다. 
