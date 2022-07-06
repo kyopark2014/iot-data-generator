@@ -56,9 +56,9 @@ Wed Jul  6 20:34:56 2022
 
 ## AWS CDK를 이용한 인프라 구축
 
-인프라를 지속적으로 관리하기 위해서는 AWS CDK와 같은 IaC를 툴을 사용하여야 합니다.
+인프라를 지속적으로 관리하기 위해서는 [AWS CDK](https://github.com/kyopark2014/technical-summary/blob/main/cdk-introduction.md)와 같은 [IaC](https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/infrastructure-as-code.html)를 툴을 사용하여야 합니다.
 
-[AWS CDK Timestrem]에서는 IoT Core Rule과 Timestream을 정의하고 인프라를 배포합니다. 
+[AWS CDK Timestrem](https://github.com/kyopark2014/iot-data-generator/tree/main/cdk-timestream)에서는 IoT Core Rule과 Timestream을 정의하고 인프라를 배포합니다. 
 
 
 ## Reference
