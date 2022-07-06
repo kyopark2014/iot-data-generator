@@ -47,7 +47,7 @@ Wed Jul  6 20:34:56 2022
 
 ## Grafana를 이용해 Dashboard 생성하기
 
-아래는 Grafana를 이용하여 TRIANGLE, RAMPUP, PWM50PC와 같은 파형을 생성한 모습입니다. 
+아래는 [Grafana 설정](https://github.com/kyopark2014/iot-data-generator/blob/main/grafana.md)를 이용하여 TRIANGLE, RAMPUP, PWM50PC와 같은 파형을 생성한 모습입니다. 
 
 ![image](https://user-images.githubusercontent.com/52392004/177516478-b44595d5-6cdc-4b8a-83ef-d3b259c77972.png)
 
