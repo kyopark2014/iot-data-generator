@@ -7,7 +7,7 @@ AWS TwinMaker를 통해서 digital twin을 만들다보면, 데이터 시뮬레�
 [IoT Data Generator 설정](https://github.com/kyopark2014/iot-data-generator/blob/main/setup.md)에서는 IoT Data Generator에 동작시키기 위한 환경을 설정하고 동작시험을 하는 방법에 대해 설명합니다. 
 
 
-## AWS Timestream으로 데이터 보내기
+## Amazon Timestream으로 데이터 보내기
 
 ## Grafana를 이용해 Dashboard 생성하기
 
