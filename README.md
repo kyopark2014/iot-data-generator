@@ -52,9 +52,7 @@ Wed Jul  6 20:34:56 2022
 
 아래는 [Grafana 설정](https://github.com/kyopark2014/iot-data-generator/blob/main/grafana.md)를 이용하여 TRIANGLE, RAMPUP, PWM50PC와 같은 파형을 생성한 모습입니다. 
 
-
-![image](https://user-images.githubusercontent.com/52392004/177567130-6613c54e-8285-416d-ae2e-505d5313abf8.png)
-
+![image](https://user-images.githubusercontent.com/52392004/177568268-71026768-bc9f-4040-abe2-d127c80babb7.png)
 
 ## Reference
 
