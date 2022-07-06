@@ -2,16 +2,16 @@
     "id": "817324-1242732464",
     "cert": "the-device-certificate.cer",
     "enabled": true,
-    "name": "Water rig Pump 2 RPM",
-    "alias": "sage-5/DeviceSet/PLC_1/Memory/Pump2_Speed_RPM",
+    "name": "Water rig Pump 1 RPM",
+    "alias": "sage-5/DeviceSet/PLC_1/Memory/Pump1_Speed_RPM",
     "topic": "sim/test",
     "type": "Integer",
-    "shape": "RAMPUP",
+    "shape": "TRIANGLE",
     "frequency": 1,
     "min": 0,
     "max": 100,
     "initial": 50,
     "max_delta": 5,
     "last_pub": 1657099163,
-    "last_value": 48
+    "last_value": 38
 }
