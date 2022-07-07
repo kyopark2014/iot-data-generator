@@ -1,7 +1,7 @@
 {
     "id": "717324-3248732464",
     "cert": "the-device-certificate.cer",
-    "enabled": true,
+    "enabled": false,
     "name": "Water rig Pump 3 RPM",
     "alias": "sage-5/DeviceSet/PLC_1/Memory/Pump3_Speed_RPM",
     "topic": "sim/test",
@@ -12,6 +12,6 @@
     "max": 100,
     "initial": 50,
     "max_delta": 5,
-    "last_pub": 1657126839,
+    "last_pub": 1657149442,
     "last_value": 1
 }

@@ -46,7 +46,7 @@ export class CdkTimestreamStack extends Stack {
         "timestream:WriteRecords",
       ],
       resources: [
-        timestreamDB.attrArn
+        timestreamDB.attrArn+'/*'
       ],
     })); 
     timestreamRole.addToPolicy(new iam.PolicyStatement({
@@ -75,7 +75,10 @@ export class CdkTimestreamStack extends Stack {
               }],
               roleArn: timestreamRole.roleArn,
               batchMode: false,  // the properties below are optional
-              // timestamp: { unit: 'MILLISECONDS', value: 'value'},  
+              timestamp: { 
+                unit: 'SECONDS', 
+                value: '${ts}'
+              },  
             },
           },
         ],
