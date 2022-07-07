@@ -41,7 +41,6 @@ Timestream의 table을 정의합니다. 여기서는 편의상 48시간 in-memor
 IoT Core의 Rule을 통해 특정 topic에서 데이터를 Timestream으로 보내기 위한 IAM Role을 아래와 같이 정의합니다. 생성한 Timestream database에 대한 WriteRecords 권한을 주고 있습니다. 
 
 ```java
-    // Rule Role for timestream
     const timestreamRole = new iam.Role(this, "timestreamRole", {
       roleName: 'timestreamRole',
       assumedBy: new iam.ServicePrincipal("iot.amazonaws.com"),
@@ -53,7 +52,7 @@ IoT Core의 Rule을 통해 특정 topic에서 데이터를 Timestream으로 보�
         "timestream:WriteRecords",
       ],
       resources: [
-        timestreamDB.attrArn
+        timestreamDB.attrArn+'/*'
       ],
     })); 
     timestreamRole.addToPolicy(new iam.PolicyStatement({
@@ -72,7 +71,6 @@ IoT Core의 Rule을 통해 특정 topic에서 데이터를 Timestream으로 보�
 Timestream으로 'sim/test' Topic으로 들어오는 모든 데이터를 전송하기 위한 Rule을 아래와 같이 정의하였습니다. 
 
 ```java
-    // define Rule for timestream
     new iot.CfnTopicRule(this, "TopicRule", {
       topicRulePayload: {
         actions: [
@@ -86,7 +84,10 @@ Timestream으로 'sim/test' Topic으로 들어오는 모든 데이터를 전송�
               }],
               roleArn: timestreamRole.roleArn,
               batchMode: false,  // the properties below are optional
-              // timestamp: { unit: 'MILLISECONDS', value: 'value'},  
+              timestamp: { 
+                unit: 'SECONDS', 
+                value: '${ts}'
+              },  
             },
           },
         ],
