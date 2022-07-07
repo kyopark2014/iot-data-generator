@@ -6,7 +6,7 @@
  
 ## 2) Data Generator를 Thing으로 등록
 
-[Data Generator](https://github.com/kyopark2014/iot-data-generator/blob/main/registration.md)을 참조하여, Thing으로 등록합니다.
+[IoT Data Generator를 Thing으로 등록](https://github.com/kyopark2014/iot-data-generator/blob/main/registration.md)을 참조하여, Thing으로 등록합니다.
 
 해당 폴더에는 TLS 인증과 관련된 "data-generator.cert.pem", "data-generator.private.key", "root-CA.crt"을 확인 할 수 있습니다. 
 
