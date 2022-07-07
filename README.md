@@ -4,7 +4,7 @@ AWS TwinMaker를 통해서 digital twin을 만드는 경우와 같이, 실제 Io
 
 <img width="705" alt="image" src="https://user-images.githubusercontent.com/52392004/177564305-5af2a69a-a395-41d7-b3c3-c3e827d2cab9.png">
 
-
+IoT Data를 IoT Core의 Rule을 통해 Timestream에 저장하는 인프라 생성 및 배포는 Console을 통해 구현하는 방법과 [AWS CDK](https://github.com/kyopark2014/technical-summary/blob/main/cdk-introduction.md)를 이용해 구현하는 방법을 각각 설명하고 있습니다. 처음에 IoT Service들에 익숙해질때가지는 Console을 이용하지만, 장기적으로 인프라를 관리하기 위해서는 AWS CDK와 같은 [IaC](https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/infrastructure-as-code.html)툴을 사용하는것이 좋습니다. 
 
 ## IoT Data Generator
 
